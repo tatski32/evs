@@ -9,6 +9,7 @@
 
 
 
+
 .navbar {
     background: #fff;
     height: 80px;
@@ -190,16 +191,16 @@
 
 
 
-/* ABOUT-US PAGE */ 
+/* SERVICES PAGE */ 
 
-/*About-us Title CSS */
+/*Services Title CSS */
 .aboutus_section-title{
     margin-bottom: 40px;
 }
 
 .aboutus_backgroundimage-title {
-    background-image: url("images/aboutus/aboutus-image.jpg");
-    background-position: top;
+    background-image: url("images/services/services-page.jpg");
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;

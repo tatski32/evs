@@ -27,25 +27,11 @@
     height: 80px;
     z-index: 1;
     width: 100%;
-    max-width: 1400px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 50px;
 }
 
-#navbar_logo{
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #025cf7 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 3rem;
-}
 
 .navbar_menu{
     display: flex;
@@ -90,7 +76,7 @@
 }
 
 .button:hover{
-    background: #4837ff;
+    background: #8b0728;
     transition: all 0.3s ease;
 }
 
@@ -203,33 +189,18 @@
 
 
 /* Hero Section CSS */
-.main {
-    background-color: #fff;
-}
-
 .main_container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-self: center;
-    margin: 0 auto;
-    height: 90vh;
-    z-index: 1;
-    width: 100%;
-    max-width: 1400px;
-    padding: 0 50px;
+    grid-template-columns: 1.6fr 1fr;
+    max-width: 100%;
+    padding: 40px 50px;
 }
 
 .main_content h1 {
     font-size: 4rem;
-    background-color: #fff;
-    background-image: linear-gradient(to top, #ff134e 0%, #fff 100%);
-    background-size: 100%;
-    font-weight: 800;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: 600;
 }
 
 .main_content p {
@@ -250,6 +221,8 @@
     position: relative;
     transition: all 0.35s;
     outline: none;
+    margin-bottom: 70px;
+    font-weight: 600;
 }
 
 .main_btn a {
@@ -280,11 +253,25 @@
 }
 
 .main {
+    background-image: url(images/hero-banner.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+/*
+    background: url(images/hero-banner.jpg) no-repeat center top fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
     background-image: url("images/hero-banner.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-bottom: 100px; */
 }
 
 /* Mobile Responsive */
@@ -294,41 +281,44 @@
         grid-template-columns: auto;
         align-items: center;
         justify-self: center;
-        width: 100%;
-        margin: 0 auto;
-        height: 90vh;
+        padding: 40px 20px;
     }
 
     .main_content {
         text-align: center;
-        margin-bottom: 4rem;
     }
 
     .main_content h1 {
-        font-size: 3.5rem;
-        margin-top: 2rem;
+        font-size: 3rem;
     }
 
     .main_content p {
-        margin-top: 1rem;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+    }
+    .main_btn {
+        margin-bottom: 30px;
     }
 }
 
 @media screen and (max-width: 500px) {
+    .main_container {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-self: center;
+        padding: 40px 15px;
+    }
+
     .main_content h1 {
         font-size: 2.5rem;
-        margin-top: 2rem;
     }
 
     .main_content p {
-        margin-top: 1rem;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .main_btn {
-        padding: 12px 36px;
-        margin: 2rem 0;
+        margin-bottom: 30px;
     }
 }
 
@@ -342,7 +332,6 @@
 /* Services Section CSS */
 .services {
     display: flex;
-    margin: 0 auto;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -356,7 +345,7 @@
     font-size: 2rem;
     margin-bottom: 30px !important;
     width: 70%;
-    margin-top: 60px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -401,12 +390,11 @@
 
 @media screen and (max-width: 960px){
     .services {
-        height: 1400px;
+        margin-bottom: 40px;
     }
 
     .services h1 {
         font-size: 2rem;
-        margin-top: 3rem;
     }
 
     .services_container {
@@ -423,12 +411,11 @@
 
 @media screen and (max-width: 500px){
     .services {
-        height: 1500px;
+        margin-bottom: 40px;
     }
 
     .services h1 {
-        font-size: 2rem;
-        margin-top: 3rem;
+        font-size: 1.5rem;
     }
 
     .services_container {
@@ -452,11 +439,10 @@
 /* About-Us Section CSS */
 .aboutus {
     display: flex;
-    margin: 0 auto;
-    margin-bottom: 40px;
     width: 100%;
-    max-width: 1400px;
+    max-width: 100%;
     padding: 0 50px;
+    margin-bottom: 40px;
 }
 
 .aboutus_container {
@@ -517,10 +503,11 @@
     color: red;
 }
 
+
 /* Mobile Responsive */
 @media screen and (max-width: 960px) {
     .aboutus {
-        height: 1210px;
+        margin-bottom: 40px;
     }
     .aboutus_container {
         display: grid;
@@ -531,15 +518,15 @@
 
     .aboutus_content {
         margin-top: 1rem;
-        margin-bottom: 2rem;
+        margin-bottom: 10px;
     }
 
     .aboutus_content h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .aboutus_content h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .aboutus_content p {
@@ -555,7 +542,7 @@
 
 @media screen and (max-width: 500px) {
     .aboutus {
-        height: 1050px;
+        margin-bottom: 40px;
     }
     .aboutus_container {
         display: grid;
@@ -566,15 +553,15 @@
 
     .aboutus_content {
         margin-top: 1rem;
-        margin-bottom: 2rem;
+        margin-bottom: 10px;
     }
 
     .aboutus_content h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .aboutus_content h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .aboutus_content p {
@@ -604,7 +591,7 @@
 }
 
 .outsource_container {
-    max-width: 1400px;
+    max-width: 100%;
     margin: auto;
     margin-bottom: 30px;
 }
@@ -628,9 +615,9 @@
 }
 
 .outsource_grid-parent{
-    gap: 20px;
+    gap: 25px;
     display: grid;
-    padding: 40px;
+    padding: 50px;
 }
 
 .outsource_grid{
@@ -645,7 +632,7 @@
 }
 
 .outsource_col img{
-    border-radius: 15px;
+    border-radius: 6px;
     position: relative;
     width: 100%;
 }
@@ -656,7 +643,7 @@
     padding: 13px 20px;
     border: none;
     top: -20px;
-    font-weight: 500;
+    font-weight: 600;
     color: #fff;
     cursor: pointer;
     transition: all 0.35s;
@@ -685,6 +672,7 @@
     position: relative;
     transition: all 0.35s;
     outline: none;
+    font-weight: 600;
 }
 
 .outsource_btn a {
@@ -719,11 +707,13 @@
     .outsource_container {
         margin: auto;
         width: 95%;
+        margin-bottom: 30px;
+        
     }
 
     .outsource h1 {
         font-size: 2rem;
-        margin-top: 3rem;
+        margin-top: 2rem;
     }
 
     .outsource_grid {
@@ -738,11 +728,12 @@
     .outsource_container {
         margin: auto;
         width: 95%;
+        margin-bottom: 30px;
     }
 
     .outsource h1 {
-        font-size: 2rem;
-        margin-top: 3rem;
+        font-size: 1.5rem;
+        margin-top: 2rem;
     }
 
     .outsource_grid {
@@ -778,12 +769,11 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;  
-    height: 500px;
+    background-attachment: fixed;
 }
 
 .bd-container-qoute {
-    max-width: 1400px;
+    max-width: 100%;
     text-align: center;
     justify-content: center;
     display: grid;
@@ -791,14 +781,14 @@
     margin: auto;
 }
 .qoute-content-holder h5{
-    padding-top: 80px;
-    font-size: 35px !important;
+    padding-top: 50px;
+    font-size: 2.5rem !important;
 }
 .qoute-content-holder p{
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 .qoute-margin{
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
@@ -810,11 +800,11 @@
     font-size: 1.4rem;
     border: 2.4px solid white;
     background-color: transparent;
-    margin-top: 1rem;
     cursor: pointer;
     position: relative;
     transition: all 0.35s;
     outline: none;
+    margin-bottom: 70px;
 }
 
 .btn-outlined a {
@@ -847,25 +837,31 @@
 /* Mobile Responsive */
 @media screen and (max-width: 960px){
     .quote_section {
-        height: 600px;
+        margin-bottom: 40px;
+    }
+    .qoute-content-holder{
+        width: 95%;
     }
     .qoute-content-holder h5{
-        padding-top: 50px;
-        font-size: 30px !important;
+        font-size: 2rem !important;
     }
     .qoute-content-holder p{
-        font-size: 20px;
+        font-size: 1.1rem;
     }
 }
 
-@media screen and (max-width: 545px){
-    .qoute-content-holder h5{
-        padding-top: 1.5rem;
+@media screen and (max-width: 500px){
+    .quote_section {
+        margin-bottom: 40px;
     }
-
+    .qoute-content-holder{
+        width: 90%;
+    }
+    .qoute-content-holder h5{
+        font-size: 1.5rem !important;
+    }
     .qoute-content-holder p{
-        font-size: 17px;
-        padding: 0;
+        font-size: 1rem;
     }
 }
 
@@ -899,7 +895,7 @@
     display: flex;
     margin: 0 auto;
     width: 85%;
-    max-width: 1300px;
+    max-width: 100%;
     grid-template-columns: 1fr 1.5fr;
     box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.096);
     text-align: center;
@@ -954,7 +950,7 @@
     padding: 5px;
     height: 5px;
     border-radius: 10px;
-    cursor:pointer;
+    cursor: pointer;
     transition: 1s;
     background-color: grey;
 }
@@ -1153,6 +1149,9 @@ border-color: #c2282d;
         position: relative;
         width: 90%;
     }
+    .testimonial {
+        margin-bottom: 40px;
+    }
 }
 
 
@@ -1161,7 +1160,7 @@ border-color: #c2282d;
 
 
 
-
+/* ------------------------------------------------------------------------------ */
 /* Contact Style CSS */
 .schedule {
     background-color: #F6F6F6;
@@ -1171,7 +1170,7 @@ border-color: #c2282d;
 
 .schedule_container {
     margin: 0 auto;
-    max-width: 1300px;
+    max-width: 100%;
     width: 85%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1185,10 +1184,6 @@ border-color: #c2282d;
 
 .schedule_content p {
     font-size: 1.3rem;
-}
-
-.contact-content-padding{
-    padding: 70px;
 }
 
 .schedule_contact{
@@ -1211,7 +1206,6 @@ textarea{
     height: 150px;
 }
 textarea::placeholder{
-    font-family: var(--font-family-general);
     font-size: 18px;
 }
 .btn-contact {
@@ -1263,18 +1257,36 @@ textarea::placeholder{
         position: relative;
         width: 90%;
     }
+    .schedule_content h1 {
+        font-size: 2rem;
+    }
+    .schedule_content p {
+        font-size: 1.2rem;
+    }
 }
-
-@media screen and (max-width: 500px) {
+@media all and (max-width: 500px) {
     .schedule_container {
         display: grid;
         grid-template-columns: auto;
         position: relative;
         width: 90%;
     }
+    .schedule_content h1 {
+        font-size: 2rem;
+    }
+    .schedule_content p {
+        font-size: 1rem;
+    }
+    input::placeholder {
+        font-size: 1rem;
+    }
+    textarea::placeholder{
+        font-size: 1rem;
+    }
+    .btn-contact {
+        font-size: 1rem;
+    }
 }
-
-
 
 
 
@@ -1284,7 +1296,6 @@ textarea::placeholder{
 /* Footer Section CSS */
 .footer_section {
     margin: 0 auto;
-    margin-bottom: 0;
     background-color: #000;
 }
 
@@ -1297,22 +1308,6 @@ textarea::placeholder{
     text-align: center;
     gap: 1rem;
     padding: 40px;
-}
-
-#footer_navlogo {
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #025cf7 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 4rem;
 }
 
 .footer_logo-title a{
@@ -1428,7 +1423,6 @@ textarea::placeholder{
     gap: 0.5rem;
     text-align: center;
     align-items: center;
-    max-width: 960px;
 }
 
 .footer-contact{
