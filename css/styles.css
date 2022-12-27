@@ -282,7 +282,7 @@ li > a:only-child:after { content: ''; }
 .main_content h1 {
     font-family: Helvetica;
     font-size: 3rem;
-    font-weight: lighter;
+    /* font-weight: lighter; */
     padding-bottom: 0.5rem;
     
 }
