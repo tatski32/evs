@@ -370,7 +370,7 @@ li > a:only-child:after { content: ''; }
 
 @media screen and (max-width: 600px) {
     .main {
-        padding-top: 40px;
+        padding-top: 50px;
         width: 90%;
     }
 
@@ -380,7 +380,7 @@ li > a:only-child:after { content: ''; }
     } */
     
     .main_content p {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     .main_btn {
