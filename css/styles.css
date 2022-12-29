@@ -244,15 +244,15 @@ li > a:only-child:after { content: ''; }
 
 @media screen and (max-width: 600px) {
     #navbar_logo{
-        margin-left: 20px;
+        margin-left: 10px;
         position: absolute;
-        width: 110px;
+        width: 105px;
         height: 60px;
     }
     
     #mobile-menu {
         position: absolute;
-        margin-right: 20px;
+        margin-right: 10px;
         top: 55%;
         right: 50px;
         transform: translate(50px, 55%);
