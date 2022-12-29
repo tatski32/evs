@@ -380,7 +380,7 @@ li > a:only-child:after { content: ''; }
     } */
     
     .main_content p {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .main_btn {
