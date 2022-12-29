@@ -283,10 +283,9 @@ li > a:only-child:after { content: ''; }
 .main_content h1 {
     font-family: Helvetica;
     font-size: 3rem;
-    /* font-weight: lighter; */
+    font-weight: lighter;
     padding-bottom: 0.5rem;
-    */
-}
+} */
 
 .main_content p {
     font-family: Helvetica;
@@ -380,7 +379,7 @@ li > a:only-child:after { content: ''; }
     } */
     
     .main_content p {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
 
     .main_btn {
