@@ -220,7 +220,7 @@ li > a:only-child:after { content: ''; }
 .navbar_btn {
     position: absolute;
     padding-bottom: 1rem;
-    margin-top: 7rem;
+    margin-top: 6.5rem;
 }
 
 .button0 {
@@ -259,11 +259,11 @@ li > a:only-child:after { content: ''; }
  .navbar {
     width: 100%;
     padding-bottom: 0;
-    padding-top: 0.5rem;
+    padding-top: 0.25rem;
     }
 
 #navbar_logo{
-    margin-left: 20px;
+    margin-left: 10px;
     position: absolute;
     width: 105px;
     height: 60px;
@@ -271,7 +271,7 @@ li > a:only-child:after { content: ''; }
 
 #mobile-menu {
     position: absolute;
-    margin-right: 20px;
+    margin-right: 10px;
     top: 45%;
     right: 50px;
     transform: translate(50px, 45%);
@@ -400,7 +400,7 @@ li > a:only-child:after { content: ''; }
 
 @media screen and (max-width: 600px) {
     .main {
-        padding-top: 5rem;
+        padding-top: 4rem;
         width: 90%;
     }
 
@@ -414,8 +414,13 @@ li > a:only-child:after { content: ''; }
     }
 
     .main_btn {
-        width: 100%;
-    }
+    padding-top: 2.5rem;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
 
     .button01 {
         display: flex;
@@ -513,6 +518,10 @@ li > a:only-child:after { content: ''; }
 }
 
 @media screen and (max-width: 724px) {
+
+.submain {
+    padding-top: 2rem;
+}
     .submain_logo {
         margin: 0 auto;      
     }
