@@ -130,7 +130,7 @@ li > a:only-child:after { content: ''; }
 
 @media screen and (max-width: 960px) {
 .navbar {
-    width: 85%;
+    width: 90%;
     padding-bottom: 0;
     }
 
@@ -181,8 +181,11 @@ li > a:only-child:after { content: ''; }
     width: 100%;
     margin: 0 auto;
     background: #fff;
-    background-color:white;
+    background-color: #fff;
+}
 
+.navbar_toggle .bar:nth-child(2){
+    width: 25px;
 }
 
 .navbar_toggle .bar{
@@ -217,7 +220,7 @@ li > a:only-child:after { content: ''; }
 .navbar_btn {
     position: absolute;
     padding-bottom: 1rem;
-    margin-top: 150px;
+    margin-top: 7rem;
 }
 
 .button0 {
@@ -253,25 +256,48 @@ li > a:only-child:after { content: ''; }
 
 
 @media screen and (max-width: 600px) {
-    #navbar_logo{
-        margin-top: -1rem;
-        margin-left: -1rem;
-        position: absolute;
-        width: 105px;
-        height: 60px;
-    }
-    
-    #mobile-menu {
-        position: absolute;
-        margin-right: -1.1rem;
-        top: 25%;
-        right: 50px;
-        transform: translate(50px, 25%);
+ .navbar {
+    width: 100%;
+    padding-bottom: 0;
+    padding-top: 0.5rem;
     }
 
+#navbar_logo{
+    margin-left: 20px;
+    position: absolute;
+    width: 105px;
+    height: 60px;
+}
+
+#mobile-menu {
+    position: absolute;
+    margin-right: 20px;
+    top: 45%;
+    right: 50px;
+    transform: translate(50px, 45%);
+}
+
+.navbar_toggle .bar{
+    width: 28px;
+    height: 2.5px;
+    margin: 5px 25px auto;
+    transition: all 0.3s ease-in-out;
+    background: #000000;
+}
+
+.navbar_btn {
+    position: absolute;
+    margin-top: 150px;
+}
+
 .button0 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
     padding: 0.1rem 0.1rem;
-    width: 100%;
+    margin: 0 auto;
 }
 }
 
