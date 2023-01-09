@@ -471,7 +471,7 @@ li > a:only-child:after { content: ''; }
 
 @media screen and (max-width: 960px) {
 .submain {
-        width: 85%;
+        width: 90%;
     }
 
     .submain_content {
@@ -488,8 +488,6 @@ li > a:only-child:after { content: ''; }
     .submain {
         width: 100%;
     }
-
-
     .submain_container {
         display: grid;
         grid-template-columns: auto;
@@ -697,9 +695,17 @@ li > a:only-child:after { content: ''; }
         text-align: center;
         align-items: center;
         margin: 0 auto;
-
     }   
 }
+
+
+@media screen and (max-width: 600px) {
+     .content01_title h1{
+        font-size: 1.8rem;
+     }
+}
+
+
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 
 
@@ -957,13 +963,16 @@ border-color: #FF0000;
         font-size: 14px;
     }
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 600px) {
     .testim .arrow{
         font-size: 1.5rem;
     }
     .testim .cont div p{
         line-height: 25px;
     }
+    .testimonial_content h1{
+         font-size: 1.8rem;
+     }
 }
 
 /* Mobile Responsive */
@@ -972,7 +981,7 @@ border-color: #FF0000;
         display: grid;
         grid-template-columns: auto;
         position: relative;
-        width: 90%;
+        width: 85%;
     }
     .testimonial {
         margin-bottom: 40px;
@@ -1050,47 +1059,30 @@ border-color: #FF0000;
 }
 
 @media screen and (max-width: 960px) {
-    .submain {
-        width: 85%;
+    .outsource {
+        width: 90%;
     }
 
-    .submain_content {
-        margin-right: 5px;
-    }
-
-    .submain_logo img {
-        margin-left: 25px;
-        width: 60px;
-        height: 60px;
-    }
+    .outsource_content01 {
+      position: relative;
+      display: grid;
+      grid-template-columns: auto;
+      padding-bottom: 2rem;
 }
-
-@media screen and (max-width: 700px) {
-    
-    .submain {
-        padding-top: 2rem;
-        width: 80%;
-    }
-    .submain_container {
-        display: grid;
-        grid-template-columns: auto;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-    }
-    .submain_logo img {
-        margin: 20px 70px 0 70px;
-        width: 60px;
-        height: 60px;
-    }
-
+    .outsource_works {
+      margin-bottom: 1rem;
+      position: relative;
+      width: 100%;
+      padding-top: 3rem;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.096);
+      background: #3A3B3C;
+      }
 }
-
+  
 @media screen and (max-width: 600px) {
-    .submain_logo img {
-        margin: 20px 60px 0 60px;
-        width: 60px;
-        height: 60px;
+    .outsource_content h1 {
+        font-size: 1.8rem;
     }
 }
 /* ------------------------------------------------------------------------------------------------------------------------------ */
