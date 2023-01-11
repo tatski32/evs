@@ -442,9 +442,32 @@ li > a:only-child:after { content: ''; }
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 
 
+/* Working Section CSS */
+
+.workingday1 {
+    font-weight: bold;
+    max-width: 1400px;
+    padding-top: 5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.workingday2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
 
 
-/* Submain Section CSS */
+/*
+Submain Section CSS
 
 .submain {
     max-width: 1400px;
@@ -525,7 +548,7 @@ li > a:only-child:after { content: ''; }
     .submain_logo {
         margin: 0 auto;      
     }
-}
+} */
 
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 
