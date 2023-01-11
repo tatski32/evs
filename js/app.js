@@ -6,15 +6,31 @@ menu.addEventListener('click', function() {
     menuLinks.classList.toggle('active');
 });
 
+
 const weekday = [
 "Sunday - Closed",
 "Monday - Open today 09:00am - 05:00pm",
 "Tuesday - Open today 09:00am - 05:00pm",
-"Wednesday - <br> Open today 09:00am - 05:00pm",
+"Wednesday",
 "Thursday - Open today 09:00am - 05:00pm",
 "Friday - Open today 09:00am - 05:00pm",
 "Saturday - Closed"];
 
 const d = new Date();
 let day = weekday[d.getDay()];
-document.getElementById("demo").innerHTML = day;
+document.getElementById("daily").innerHTML = day;
+
+
+const timely = [
+"..Closed..",
+"Open today 09:00am - 05:00pm",
+"Open today 09:00am - 05:00pm",
+"Open today 09:00am - 05:00pm",
+"Open today 09:00am - 05:00pm",
+"Open today 09:00am - 05:00pm",
+"..Closed.."];
+
+const t = new Date();
+let time = timely[t.getDay()];
+document.getElementById("daytime").innerHTML = time;
+
