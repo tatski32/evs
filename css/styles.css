@@ -649,7 +649,7 @@ Submain Section CSS
     justify-content: center;
     font-family: Lucida Sans;
     font-size: 1.4rem; 
-    padding: 0 2rem 0 2rem;
+    padding: 2rem 2rem 2rem 2rem;
     
 }
 
@@ -717,8 +717,7 @@ Submain Section CSS
     .content01_01 {
         position: relative;
         font-family: Helvetica;
-        max-width: 1400px;
-        width: 85%;
+        width: 100%;
         justify-content: center;
         text-align: center;
         align-items: center;
@@ -737,7 +736,7 @@ Submain Section CSS
     .content01_title02 {
         position: relative;
         font-family: Helvetica;
-        width: 85%;
+        width: 100%;
         justify-content: center;
         text-align: center;
         align-items: center;
