@@ -8,13 +8,13 @@ menu.addEventListener('click', function() {
 
 
 const weekday = [
-"Sunday - Closed",
-"Monday - Open today 09:00am - 05:00pm",
-"Tuesday - Open today 09:00am - 05:00pm",
+"Sunday",
+"Monday",
+"Tuesday",
 "Wednesday",
-"Thursday - Open today 09:00am - 05:00pm",
-"Friday - Open today 09:00am - 05:00pm",
-"Saturday - Closed"];
+"Thursday",
+"Friday",
+"Saturday"];
 
 const d = new Date();
 let day = weekday[d.getDay()];
