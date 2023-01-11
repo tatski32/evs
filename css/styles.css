@@ -463,6 +463,16 @@ li > a:only-child:after { content: ''; }
     align-items: center;
 }
 
+@media screen and (max-width: 724px) {
+    .workingday1 {
+        font-size: 1rem;      
+    }
+    .workingday2 {
+        font-size: 1rem;      
+    }
+}
+
+
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 
 
