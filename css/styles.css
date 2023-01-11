@@ -746,9 +746,23 @@ Submain Section CSS
 
 
 @media screen and (max-width: 600px) {
-     .content01_title h1{
-        font-size: 1.8rem;
+.content01 {
+    width: 95%;
+    margin: 0 auto;
+}  
+.content01_title h1{
+    font-size: 1.8rem;
      }
+.content01_title02 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content01_title02 p{
+    font-size: 1rem; 
+    padding: 1rem 1rem 1rem 1rem; 
+}
+
 }
 
 
