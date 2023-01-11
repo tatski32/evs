@@ -400,8 +400,8 @@ li > a:only-child:after { content: ''; }
 
 @media screen and (max-width: 600px) {
     .main {
-        padding-top: 4rem;
-        width: 90%;
+        padding-top: 4.5rem;
+        width: 85%;
     }
 
     
@@ -414,7 +414,7 @@ li > a:only-child:after { content: ''; }
     }
 
     .main_btn {
-    padding-top: 2.5rem;
+    padding-top: 3.5rem;
     position: relative;
     align-items: center;
     text-align: center;
@@ -447,7 +447,7 @@ li > a:only-child:after { content: ''; }
 .workingday1 {
     font-weight: bold;
     max-width: 1400px;
-    padding-top: 5rem;
+    padding-top: 4rem;
     padding-bottom: 0.5rem;
     width: 100%;
     margin: 0 auto;
