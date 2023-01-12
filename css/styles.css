@@ -444,6 +444,9 @@ li > a:only-child:after { content: ''; }
 
 /* Working Section CSS */
 
+.workingday_main {
+    padding-bottom: 4rem;
+}
 .workingday1 {
     font-weight: bold;
     max-width: 1400px;
@@ -455,98 +458,29 @@ li > a:only-child:after { content: ''; }
     text-align: center;
     align-items: center;
 }
-
 .workingday2 {
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
 }
+.workingday1 p{
+        font-size: 1.2rem;      
+    }
+    .workingday2 p{
+        font-size: 1.2rem;      
+    }
+
 
 @media screen and (max-width: 724px) {
-    .workingday1 {
+    .workingday1 p{
         font-size: 1rem;      
     }
-    .workingday2 {
+    .workingday2 p{
         font-size: 1rem;      
     }
 }
 
-
-/* ------------------------------------------------------------------------------------------------------------------------------ */
-
-
-/*
-Submain Section CSS
-.submain {
-    max-width: 1400px;
-    padding-top: 5rem;
-    width: 100%;
-    margin: 0 auto;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-.submain_container {
-    display: flex;
-    grid-template-columns: auto;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-.submain_content {
-    margin-right: 50px;
-}
-.submain_logo img {
-    margin-left: 65px;
-    width: 60px;
-    height: 60px;
-}
-@media screen and (max-width: 960px) {
-.submain {
-        width: 90%;
-    }
-    .submain_content {
-        margin-right: 5px;
-    }
-    .submain_logo img {
-        width: 60px;
-        height: 60px;
-    }
-}
-@media screen and (max-width: 725px) {
-    .submain {
-        width: 100%;
-    }
-    .submain_container {
-        display: grid;
-        grid-template-columns: auto;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-    }
-     
-    .submain_logo {
-        margin-left: 1.1rem;
-        
-    }
-    .submain_logo img {
-        position: relative;
-        margin-top: 1.5rem;
-        margin-left: 3rem;
-        margin-right: 3rem;
-        width: 60px;
-        height: 60px;
-    }
-}
-@media screen and (max-width: 724px) {
-.submain {
-    padding-top: 2rem;
-}
-    .submain_logo {
-        margin: 0 auto;      
-    }
-} */
 
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 
@@ -813,6 +747,276 @@ Submain Section CSS
 
 
 /* ------------------------------------------------------------------------------------------------------------------------------ */
+
+
+
+
+/* Content 02 Section CSS */
+.content02 {
+    position: relative;
+    max-width: 1400px;
+    padding-top: 4rem;
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+}
+
+.content02 h1 {
+    width: 85%;
+    margin: 0 auto;
+    font-family: Helvetica;
+    position: relative;
+    font-size: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.content02_container {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    grid-template-columns: auto;
+}
+
+.content02_title01 {
+    position: relative;
+    width: 50%;
+    display: grid;
+     
+}
+
+.content02_title01 p{
+    width: 100%;
+    margin: 0 auto;
+    font-family: Lucida Sans;
+    font-size: 1.4rem; 
+    padding: 3rem 2rem 0 2rem;
+}
+
+.content02_title_01 {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto;
+    padding-bottom: 4rem;
+}
+
+.content02_01 p{
+    font-family: Segoe Print;
+    font-size: 1.4rem;
+    padding: 0 0 0 2rem;
+}
+
+.content02_title02 {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.096);
+    place-items: center;
+    position: relative;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+.content02 h1 {
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+    .content02_container {
+        width: 100%;
+        position: relative;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+.content02_title01 {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content02_title01 p{
+    width: 100%;
+    margin: 0 auto;
+    font-family: Lucida Sans;
+    font-size: 1.4rem; 
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.content02_title_01 {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto;
+    padding-bottom: 4rem;
+}
+
+.content02_01 {
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+.content02_01 p{
+    font-family: Segoe Print;
+    font-size: 1.4rem;
+    padding: 0 0 0 0;
+}
+ 
+
+    .content02_title_01 {
+        position: relative;
+        display: flex;
+        grid-template-columns: auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .content02_title02 {
+        position: relative;
+        font-family: Helvetica;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .content02 h1 {
+        width: 90%;
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+    .content01_01 p{ 
+        font-family: Segoe Print;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 724px) {
+
+    .content01_01 {
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;  
+    }
+
+.content01_01 p{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.content01_title {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+    .content01_title_01 {
+        position: relative;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+.content01_title h1 {
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    padding-bottom: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+    .content01_title02 {
+        position: relative;
+        font-family: Helvetica;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+    }   
+
+.content01_01 img{
+    width: 60px;
+    height: 60px;
+    margin-top: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+}
+
+
+@media screen and (max-width: 600px) {
+.content01 {
+    width: 95%;
+    margin: 0 auto;
+}  
+.content01_title h1{
+    font-size: 1.8rem;
+     }
+.content01_title02 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content01_title02 p{
+    font-size: 1rem; 
+    padding: 1rem 1rem 1rem 1rem; 
+}
+.content01_01 p{ 
+        font-family: Segoe Print;
+    }
+
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+
+
+
+
 
 
 /* Testimonial Section CSS */
