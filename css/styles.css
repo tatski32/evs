@@ -478,7 +478,6 @@ li > a:only-child:after { content: ''; }
 
 /*
 Submain Section CSS
-
 .submain {
     max-width: 1400px;
     padding-top: 5rem;
@@ -488,7 +487,6 @@ Submain Section CSS
     text-align: center;
     align-items: center;
 }
-
 .submain_container {
     display: flex;
     grid-template-columns: auto;
@@ -496,32 +494,26 @@ Submain Section CSS
     text-align: center;
     align-items: center;
 }
-
 .submain_content {
     margin-right: 50px;
 }
-
 .submain_logo img {
     margin-left: 65px;
     width: 60px;
     height: 60px;
 }
-
 @media screen and (max-width: 960px) {
 .submain {
         width: 90%;
     }
-
     .submain_content {
         margin-right: 5px;
     }
-
     .submain_logo img {
         width: 60px;
         height: 60px;
     }
 }
-
 @media screen and (max-width: 725px) {
     .submain {
         width: 100%;
@@ -538,7 +530,6 @@ Submain Section CSS
         margin-left: 1.1rem;
         
     }
-
     .submain_logo img {
         position: relative;
         margin-top: 1.5rem;
@@ -547,11 +538,8 @@ Submain Section CSS
         width: 60px;
         height: 60px;
     }
-
 }
-
 @media screen and (max-width: 724px) {
-
 .submain {
     padding-top: 2rem;
 }
@@ -584,21 +572,24 @@ Submain Section CSS
 
 .content01_title {
     padding-top: 2rem;
-    padding-bottom: 2rem;
-    height: 100%;
+    padding-bottom: 3rem;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 60%;
     margin: 0 auto;
 }
 
 .content01_title h1 {
-    width: 90%;
+    width: 80%;
+    margin: 0 auto;
     font-family: Helvetica;
     position: relative;
     font-size: 2.5rem;
     padding-top: 2rem;
     padding-bottom: 2.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .content01_title_01 {
@@ -606,6 +597,9 @@ Submain Section CSS
     display: flex;
     grid-template-columns: auto;
     padding-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .content01_01 {
@@ -615,18 +609,25 @@ Submain Section CSS
     padding-top: 1.8rem;
 }
 
+
 .content01_01 p{
-    width: 80%;
+    font-family: Segoe Print;
+    width: 100%;
     margin: 0 auto;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     position: relative;
 }
 
+
 .content01_01 img{
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin-bottom: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .content01_title02 {
     text-align: center;
@@ -648,7 +649,7 @@ Submain Section CSS
     align-items: center;
     justify-content: center;
     font-family: Lucida Sans;
-    font-size: 1.4rem; 
+    font-size: 1.3rem; 
     padding: 2rem 2rem 2rem 2rem;
     
 }
@@ -656,7 +657,7 @@ Submain Section CSS
 @media screen and (max-width: 960px) {
 
     .content01_container {
-        width: 90%;
+        width: 100%;
         position: relative;
         display: grid;
         grid-template-columns: auto;
@@ -665,16 +666,25 @@ Submain Section CSS
         align-items: center;
     }
 
+.content01_title {
+    padding-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
     .content01_01 {
         position: relative;
         font-family: Helvetica;
-        max-width: 1400px;
-        width: 85%;
+        width: 100%;
         justify-content: center;
         text-align: center;
         align-items: center;
         margin: 0 auto;
+        padding-bottom: 0;
     }
+ 
 
     .content01_title_01 {
         position: relative;
@@ -683,18 +693,18 @@ Submain Section CSS
         justify-content: center;
         text-align: center;
         align-items: center;
+        width: 100%;
         margin: 0 auto;
     }
 
     .content01_title02 {
         position: relative;
         font-family: Helvetica;
-        width: 80%;
+        width: 100%;
         justify-content: center;
         text-align: center;
         align-items: center;
         margin: 0 auto;
-
     }
 
     .content01_title h1 {
@@ -754,7 +764,7 @@ Submain Section CSS
     font-size: 1.8rem;
      }
 .content01_title02 {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
 }
 
