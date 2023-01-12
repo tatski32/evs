@@ -716,6 +716,7 @@ Submain Section CSS
 
 
     .content01_01 p{ 
+        font-family: Segoe Print;
         width: 90%;
         margin: 0 auto;
     }
@@ -731,6 +732,7 @@ Submain Section CSS
         text-align: center;
         align-items: center;
         margin: 0 auto;
+        
     }
 
     .content01_title_01 {
@@ -751,6 +753,9 @@ Submain Section CSS
         align-items: center;
         margin: 0 auto;
     }   
+    .content01_01 p{ 
+        font-family: Segoe Print;
+    }
 }
 
 
@@ -771,6 +776,9 @@ Submain Section CSS
     font-size: 1rem; 
     padding: 1rem 1rem 1rem 1rem; 
 }
+.content01_01 p{ 
+        font-family: Segoe Print;
+    }
 
 }
 
