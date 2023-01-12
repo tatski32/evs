@@ -723,7 +723,7 @@ Submain Section CSS
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 724px) {
 
     .content01_01 {
         position: relative;
@@ -731,9 +731,24 @@ Submain Section CSS
         justify-content: center;
         text-align: center;
         align-items: center;
-        margin: 0 auto;
-        
+        margin: 0 auto;  
     }
+
+.content01_01 p{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.content01_title {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+}
 
     .content01_title_01 {
         position: relative;
@@ -744,6 +759,17 @@ Submain Section CSS
         align-items: center;
     }
 
+.content01_title h1 {
+    font-family: Helvetica;
+    position: relative;
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    padding-bottom: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
     .content01_title02 {
         position: relative;
         font-family: Helvetica;
@@ -753,9 +779,16 @@ Submain Section CSS
         align-items: center;
         margin: 0 auto;
     }   
-    .content01_01 p{ 
-        font-family: Segoe Print;
-    }
+
+.content01_01 img{
+    width: 60px;
+    height: 60px;
+    margin-top: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
 }
 
 
