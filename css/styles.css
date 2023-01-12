@@ -19,7 +19,7 @@
     /* position: sticky; */
     top: 0;
     z-index: 999;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
 #navbar_logo{
@@ -575,7 +575,7 @@ Submain Section CSS
     padding-bottom: 3rem;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -653,7 +653,7 @@ Submain Section CSS
     
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1000px) {
 
     .content01_container {
         width: 100%;
@@ -758,8 +758,6 @@ Submain Section CSS
     }
 
 .content01_title h1 {
-    font-family: Helvetica;
-    position: relative;
     font-size: 1.8rem;
     padding-top: 2rem;
     padding-bottom: 0;
