@@ -1273,6 +1273,11 @@ li > a:only-child:after { content: ''; }
     margin: 0 auto;
 }
 
+.content03_01 {
+    width: 85%;
+    margin: 0 auto;
+}
+
 .content03_title02 p{
     font-size: 1rem; 
 }
