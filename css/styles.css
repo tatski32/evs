@@ -1040,7 +1040,7 @@ li > a:only-child:after { content: ''; }
 .content02_02 h1{
     with: 100%;
     margin: 0 auto;
-    font-family: Lucida Sans; font-size: 1.3rem; padding: 1rem 0 0.5rem 0;
+    font-family: Lucida Sans; font-size: 1.3rem; padding: 1rem 1rem 0.5rem 1rem;
     text-align: left;
     align-items: left;
     justify-content: center;
