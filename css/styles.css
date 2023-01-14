@@ -914,12 +914,14 @@ li > a:only-child:after { content: ''; }
     display: grid;  
     grid-template-columns: auto; 
     justify-content: center;
+    padding: 1rem 0 2rem 0;
 }
 
-.content02_02_01{
+.content02_02{
     padding-bottom: 0;
     font-size: 1.1rem;
-    padding-left: 3rem;
+    width: 90%
+    margin: 0 auto;
 }
 
 }
@@ -982,12 +984,14 @@ li > a:only-child:after { content: ''; }
     display: grid;  
     grid-template-columns: auto; 
     justify-content: center;
+    padding: 1rem 0.5rem 2rem 0.5rem;
 }
 
-.content02_02_01{
+.content02_02{
+    width: 90%
+    margin: 0 auto;
     padding-bottom: 0;
     font-size: 1.1rem;
-    padding-left: 2rem;
 }
 
 }
@@ -1006,8 +1010,11 @@ li > a:only-child:after { content: ''; }
 }
 
 .content02_title02 {
-    font-size: 1rem; 
-    padding: 1rem 1rem 1rem 1rem; 
+    font-size: 1rem;  
+}
+
+.content02_02 {
+    font-size: 1.1rem;
 }
 
 }
