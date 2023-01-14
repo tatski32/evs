@@ -1000,7 +1000,7 @@ li > a:only-child:after { content: ''; }
     display: grid;  
     grid-template-columns: auto; 
     justify-content: center;
-    padding: 1rem 0.5rem 2rem 0.5rem;
+    padding: 1rem 1rem 2rem 1rem;
 }
 
 .content02_02 h1{
@@ -1013,7 +1013,7 @@ li > a:only-child:after { content: ''; }
 }
 
 
-.content02_02_01{
+.content02_02_01 p{
     padding-bottom: 0;
     font-size: 1rem;
 }
@@ -1035,12 +1035,13 @@ li > a:only-child:after { content: ''; }
 
 .content02_title02 {
     font-size: 1rem;  
+    padding: 1rem 1rem 2rem 1rem;
 }
 
 .content02_02 h1{
     with: 100%;
     margin: 0 auto;
-    font-family: Lucida Sans; font-size: 1.3rem; padding: 1rem 1rem 0.5rem 1rem;
+    font-family: Lucida Sans; font-size: 1.3rem; padding: 1rem 0 0.5rem 0;
     text-align: left;
     align-items: left;
     justify-content: center;
