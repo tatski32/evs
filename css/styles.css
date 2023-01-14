@@ -1016,6 +1016,7 @@ li > a:only-child:after { content: ''; }
 .content02_02_01 p{
     padding-bottom: 0;
     font-size: 1rem;
+    padding-left: 1rem;
 }
 
 }
@@ -1045,6 +1046,11 @@ li > a:only-child:after { content: ''; }
     text-align: left;
     align-items: left;
     justify-content: center;
+}
+.content02_02_01 p{
+    padding-bottom: 0;
+    font-size: 1rem;
+    padding-left: 1rem;
 }
 
 }
