@@ -1016,7 +1016,7 @@ li > a:only-child:after { content: ''; }
 .content02_02_01 p{
     padding-bottom: 0;
     font-size: 1rem;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
 }
 
 }
@@ -1034,7 +1034,8 @@ li > a:only-child:after { content: ''; }
     margin: 0 auto;
 }
 
-.content02_title02 { 
+.content02_title02 {
+    font-size: 1rem;  
     padding: 1rem 1rem 2rem 1rem;
 }
 
@@ -1049,7 +1050,7 @@ li > a:only-child:after { content: ''; }
 .content02_02_01 p{
     padding-bottom: 0;
     font-size: 1rem;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
 }
 
 }
@@ -1270,11 +1271,6 @@ li > a:only-child:after { content: ''; }
      }
 .content01_title02 {
     width: 90%;
-    margin: 0 auto;
-}
-
-.content03_01 {
-    width: 85%;
     margin: 0 auto;
 }
 
@@ -1676,18 +1672,17 @@ border-color: #FF0000;
 
 /* Contact Style CSS */
 .schedule {
-    background-color: #F6F6F6;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    max-width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .schedule_container {
     margin: 0 auto;
-    max-width: 100%;
     width: 85%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 3rem;
 }
 
 .schedule_content h1 {
@@ -1695,72 +1690,68 @@ border-color: #FF0000;
     font-size: 2rem;
 }
 
-.schedule_content p {
-    font-size: 1.3rem;
-}
-
 .schedule_contact{
-    gap: 15px;
+    gap: 1rem;
     display: grid;
+    
 }
 input{
     background-color: white;
     border: white;
     padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 input::placeholder {
     font-size: 18px;
     font-weight: 100;
   }
 textarea{
-    background-color: white;
-    border: white;
+    background: white;
     padding: 20px;
     height: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 textarea::placeholder{
     font-size: 18px;
 }
 .btn-contact {
-    background-color: #c2282d;
-    padding: 15px;
-    color: white;
-    font-weight: 700;
-    border: none;
-    font-size: 1.5rem;
-    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
-    cursor: pointer;
-    position: relative;
-    transition: all 0.35s;
-    outline: none;
-
+    width: 25%;
+    display: flex;
 }
 
-.btn-contact a {
-    position: relative;
-    z-index: 2;
-    color: #fff;
+.button03 {
+    
+    justify-content: center;
     text-decoration: none;
-}
-
-.btn-contact:after {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: #4837ff;
-    transition: all 0.35s; 
-}
-
-.btn-contact:hover {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 13px 60px;
+    background: #000;
     color: #fff;
 }
 
-.btn-contact:hover:after {
-    width: 100%;
+.button03 p {
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
 }
+
+.button03:hover {
+    background: #FFF;
+    color: #000;
+    border: 1px solid black;
+    transition: all 0.3s ease;
+}
+
+
+
+
+
 
 /* Mobile Responsive */
 @media screen and (max-width: 960px) {
@@ -1851,7 +1842,6 @@ textarea::placeholder{
     gap: 0.5rem;
     text-align: left;
     align-items: center;
-    text-align: center;
 }
 
 
