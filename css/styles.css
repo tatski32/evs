@@ -433,6 +433,11 @@ li > a:only-child:after { content: ''; }
         padding-top: 4.5rem;
         width: 90%;
     }
+
+
+    .main_content p {
+        font-size: 1.5rem;
+    }
     
 }
 
@@ -683,7 +688,6 @@ li > a:only-child:after { content: ''; }
 }
 
 .content01_title_01 {
-        padding-right: 1rem;
         width: 100%;
         margin: 0 auto;
         position: relative;
