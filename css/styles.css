@@ -1,10 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+
+
+/*
+html {
+  height:100%;
+}
+
+body {
+  margin:0;
+}
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #58FA58 50%, #A9F5F2  50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+*/
+
+
+
+.ball {
+  position: fixed;
+  border-radius: 100%;
+  opacity: 0.7;
+}
+
+
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 
 .navbar {
     font-family: 'Gill Sans', sans-serif;
@@ -14,15 +68,18 @@
     align-items: center;
     font-size: 1rem;
     max-width: 1400px;
-    width: 85%;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
     /* position: sticky; */
     top: 0;
     z-index: 999;
     padding-top: 1rem;
+    padding-bottom: 4rem;
 }
 
 #navbar_logo{
+    margin-left: 5rem;
     position: absolute;
     width: 125px;
     height: 75px;
@@ -44,6 +101,7 @@
     list-style: none;
     text-align: center;
     margin-top: 50px;
+    margin-right: 5rem;
 }
 
 .navbar ul {
@@ -56,7 +114,7 @@
     display:inline-block;
 }
 
-li > a:after { content: ' »'; } /* Change this in order to change the Dropdown symbol */
+li > a:after { margin-left: 5px; content: ' »';  } /* Change this in order to change the Dropdown symbol */
 
 li > a:only-child:after { content: ''; }
 
@@ -131,7 +189,7 @@ li > a:only-child:after { content: ''; }
 @media screen and (max-width: 960px) {
 .navbar {
     width: 100%;
-    padding-bottom: 0;
+    padding-bottom: 3rem;
     }
 
 .navbar_container{
@@ -228,12 +286,14 @@ li > a:only-child:after { content: ''; }
     position: relative;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    border-radius: 10px;
+    width: 28%;
+    margin: 0 auto;
 }
 
 .button0 p{
      font-size: 1.1rem;
-     padding-bottom: 1rem; 
+     padding-bottom: 0; 
 }
 
 .navbar_toggle .bar {
@@ -258,7 +318,7 @@ li > a:only-child:after { content: ''; }
 @media screen and (max-width: 600px) {
  .navbar {
     width: 100%;
-    padding-bottom: 0;
+    padding-bottom: 2rem;
     padding-top: 0.1rem;
     }
 
@@ -275,6 +335,10 @@ li > a:only-child:after { content: ''; }
     top: 45%;
     right: 50px;
     transform: translate(50px, 45%);
+}
+
+.navbar_menu.active{
+    top: 140%;
 }
 
 .navbar_toggle .bar{
@@ -295,9 +359,13 @@ li > a:only-child:after { content: ''; }
     position: relative;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    padding: 0.1rem 0.1rem;
+    border-radius: 10px;
+    width: 40%;
     margin: 0 auto;
+}
+
+.button0 p{
+     font-size: 1rem; 
 }
 }
 
@@ -311,7 +379,7 @@ li > a:only-child:after { content: ''; }
 /* Main Section CSS */
 
 .main {
-    padding-top: 120px;
+    padding-top: 8rem;
     margin: 0 auto;
     max-width: 1400px;
     justify-content: center;
@@ -432,11 +500,6 @@ li > a:only-child:after { content: ''; }
     .main {
         padding-top: 4.5rem;
         width: 90%;
-    }
-
-
-    .main_content p {
-        font-size: 1.5rem;
     }
     
 }
@@ -568,7 +631,8 @@ li > a:only-child:after { content: ''; }
 .content01_title02 {
     justify-content: center;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.096);
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0.5, 0.396);
+    background-color: #EFFBF8;
     position: relative;
     width: 50%;
     margin: 0 auto;
@@ -688,6 +752,7 @@ li > a:only-child:after { content: ''; }
 }
 
 .content01_title_01 {
+        padding-right: 1rem;
         width: 100%;
         margin: 0 auto;
         position: relative;
@@ -743,7 +808,7 @@ li > a:only-child:after { content: ''; }
 }  
 
 .content01_title {
-    padding: 0 0 0 0;
+    padding: 0 0 2rem 0;
  }
 
 
@@ -794,6 +859,9 @@ li > a:only-child:after { content: ''; }
     font-size: 1rem; 
     padding: 2rem 1rem 2rem 1rem; 
 }
+
+
+
 .content01_01 p{ 
         font-family: Segoe Print;
     }
@@ -811,10 +879,8 @@ li > a:only-child:after { content: ''; }
 .content03 {
     position: relative;
     max-width: 1400px;
-    padding-top: 5rem;
     width: 100%;
     margin: 0 auto;
-    padding-bottom: 5rem;
 }
 
 .content03_container {
@@ -864,7 +930,7 @@ li > a:only-child:after { content: ''; }
 
 .content03_02{
     border-radius: 20px;
-    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.096);
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.396);
     padding-bottom: 0.8rem;
     padding-top: 0.8rem;
     background: #000;
@@ -885,7 +951,8 @@ li > a:only-child:after { content: ''; }
 .content03_title02 {
     justify-content: center;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.096);
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0.5, 0.396);
+    background-color: #EFFBF8;
     position: relative;
     width: 50%;
     margin: 0 auto;
@@ -1028,6 +1095,9 @@ li > a:only-child:after { content: ''; }
 .content03_title02 p{
     font-size: 1rem; 
 }
+
+
+
 .content03_02 p{
     font-family: 'Gill Sans', sans-serif;
     font-size: 1rem;
@@ -1110,7 +1180,8 @@ li > a:only-child:after { content: ''; }
     width: 50%;
     margin: 0 auto;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.096);
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0.5, 0.396);
+    background-color: #EFFBF8;
 }
 
 .content02_title_02 {
@@ -1376,8 +1447,9 @@ li > a:only-child:after { content: ''; }
 
 
 
+/* --------------------
 
-/* Testimonial Section CSS */
+Testimonial Section CSS
 .testimonial {
     max-width: 1400px;
     margin: 0 auto;
@@ -1755,51 +1827,73 @@ border-color: #FF0000;
 }
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 
+------------------------------------------------------------------- */
 
 
-/* Contact Style CSS */
-.schedule {
-    max-width: 100%;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
 
-.schedule_container {
+
+
+
+/* Schedule Section CSS */
+.schedule01 {
+    padding-top: 2rem;
+    position: relative;
+    max-width: 1400px;
+    width: 100%;
     margin: 0 auto;
-    width: 85%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
 }
 
-.schedule_content h1 {
-    padding-bottom: 20px;
-    font-size: 2rem;
+.schedule01_container {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    grid-template-columns: auto;
 }
 
-.schedule_contact{
+.schedule01_title {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 0 0 2rem;
+}
+
+.schedule01_title h1 {
+    width: 100%;
+    font-family: Helvetica;
+    position: relative;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.schedule01_content {
     gap: 1rem;
     display: grid;
-    
 }
+
 input{
     background-color: white;
     border: white;
+    width: 90%;
     padding: 20px;
     border: 1px solid black;
     border-radius: 5px;
 }
+
 input::placeholder {
     font-size: 18px;
     font-weight: 100;
+    gap: 1rem;
   }
+
 textarea{
     background: white;
+    width: 90%;
     padding: 20px;
     height: 150px;
     border: 1px solid black;
     border-radius: 5px;
 }
+
 textarea::placeholder{
     font-size: 18px;
 }
@@ -1809,7 +1903,6 @@ textarea::placeholder{
 }
 
 .button03 {
-    
     justify-content: center;
     text-decoration: none;
     border: none;
@@ -1836,56 +1929,76 @@ textarea::placeholder{
 }
 
 
-
-
-
-
-/* Mobile Responsive */
-@media screen and (max-width: 960px) {
-    .schedule_container {
-        display: grid;
-        grid-template-columns: auto;
-        position: relative;
-        width: 90%;
-    }
-    .schedule_content h1 {
-        font-size: 2rem;
-    }
-    .schedule_content p {
-        font-size: 1.2rem;
-    }
+.schedule01_title02 {
+    justify-content: center;
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
 }
-@media all and (max-width: 500px) {
-    .schedule_container {
-        display: grid;
-        grid-template-columns: auto;
-        position: relative;
-        width: 90%;
-    }
-    .schedule_content h1 {
-        font-size: 2rem;
-    }
-    .schedule_content p {
-        font-size: 1rem;
-    }
-    input::placeholder {
-        font-size: 1rem;
-    }
-    textarea::placeholder{
-        font-size: 1rem;
-    }
-    .btn-contact {
-        font-size: 1rem;
-    }
+
+.schedule01_title02 h1 {
+    font-family: Helvetica;
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.schedule01_title02 p {
+    font-family: Helvetica;
+    position: relative;
+    font-size: 1.2rem;
 }
 
 
+@media screen and (max-width: 1000px) {
+
+.schedule01_container {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+.schedule01_title {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+}
+
+input{
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+}
+
+.schedule01_title02 {
+    padding-top: 3rem;
+    justify-content: center;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.schedule01_title02 h1 {
+    font-family: Helvetica;
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.schedule01_title02 p {
+    font-family: Helvetica;
+    position: relative;
+    font-size: 1rem;
+}
+
+}
 
 
-/* ------------------------------------------------------------------------------ */
 
 
-
+/* ------------------------------------------------------------------------------------------------------------------------------ */
 
 
 
