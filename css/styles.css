@@ -186,7 +186,7 @@ li > a:only-child:after { content: ''; }
 }
 
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1138px) {
 .navbar {
     width: 100%;
     padding-bottom: 3rem;
@@ -315,23 +315,23 @@ li > a:only-child:after { content: ''; }
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
  .navbar {
     width: 100%;
     padding-bottom: 2rem;
-    padding-top: 0.1rem;
+    padding-top: 0.5rem;
     }
 
 #navbar_logo{
-    margin-left: 5px;
+    margin-left: 0.5rem;
     position: absolute;
-    width: 105px;
-    height: 60px;
+    width: 90px;
+    height: 55px;
 }
 
 #mobile-menu {
     position: absolute;
-    margin-right: 5px;
+    margin-right: 0.5rem;
     top: 45%;
     right: 50px;
     transform: translate(50px, 45%);
@@ -360,7 +360,7 @@ li > a:only-child:after { content: ''; }
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    width: 40%;
+    width: 45%;
     margin: 0 auto;
 }
 
@@ -379,7 +379,7 @@ li > a:only-child:after { content: ''; }
 /* Main Section CSS */
 
 .main {
-    padding-top: 8rem;
+    padding-top: 7rem;
     margin: 0 auto;
     max-width: 1400px;
     justify-content: center;
@@ -431,7 +431,7 @@ li > a:only-child:after { content: ''; }
 @media screen and (max-width: 960px) {
     .main {
         width: 90%;
-        padding-top: 5rem;
+        padding-top: 4rem;
     }
     
     .main_content p {
@@ -460,11 +460,11 @@ li > a:only-child:after { content: ''; }
 
 @media screen and (max-width: 724px) {
     .main {
-        padding-bottom: 2rem;      
+    padding-top: 3rem;      
     }
 
     .main_content p {
-        font-size: 1.8rem;
+        font-size: 2.2rem;
     }
 
     .main_btn {
@@ -496,12 +496,35 @@ li > a:only-child:after { content: ''; }
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
     .main {
-        padding-top: 4.5rem;
-        width: 90%;
+    padding-top: 1.4rem;      
+    }
+
+    .main_content p {
+        font-size: 2rem;
+    }
+.button01 p{
+        font-size: 1rem;
     }
     
+}
+
+@media screen and (max-width: 360px) {
+
+    .main_content p {
+        width: 95%;
+        margin: 0 auto;
+        font-size: 1.6rem;
+    }
+
+    .button01 p{
+        font-size: 1rem;
+    }
+    .button01 {
+        width: 190px;
+        margin: 0 auto;
+    }
 }
 
 
@@ -578,7 +601,7 @@ li > a:only-child:after { content: ''; }
     justify-content: center;
     width: 50%;
     margin: 0 auto;
-    padding-right: 1rem;
+    padding-right: 0.5rem;
 }
 
 .content01_title h1 {
@@ -723,6 +746,9 @@ li > a:only-child:after { content: ''; }
 
 
 @media screen and (max-width: 800px) {
+.content01 {
+    padding-top: 1rem;
+}
 
 .content01_01 {
         position: relative;
@@ -752,7 +778,6 @@ li > a:only-child:after { content: ''; }
 }
 
 .content01_title_01 {
-        padding-right: 1rem;
         width: 100%;
         margin: 0 auto;
         position: relative;
@@ -764,7 +789,6 @@ li > a:only-child:after { content: ''; }
     }
 
 .content01_title h1 {
-    
     width: 85%;
     margin: 0 auto
     padding-top: 2rem;
@@ -894,6 +918,7 @@ li > a:only-child:after { content: ''; }
 .content03_title {
     padding-top: 2rem;
     padding-bottom: 3rem;
+    padding-right: 1rem;
     width: 50%;
     margin: 0 auto;
 }
@@ -985,6 +1010,7 @@ li > a:only-child:after { content: ''; }
 .content03_title {
     padding-top: 2rem;
     align-items: center;
+    padding-right: 0;
     justify-content: center;
     width: 100%;
     margin: 0 auto;
@@ -1188,8 +1214,8 @@ li > a:only-child:after { content: ''; }
     width: 100%;
     margin: 0 auto;
     position: relative;
-    display: grid;  
-    grid-template-columns: auto; 
+    display: grid;
+    grid-template-columns: auto;
     padding: 2rem 2rem 2rem 2rem;
 }
 
@@ -1405,16 +1431,9 @@ li > a:only-child:after { content: ''; }
     margin: 0 auto;
 }
 
-.content02_title02 {
-    font-size: 1rem;  
-    
-}
-
 .content02_02 {
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 1rem 0;
  }
-
-
 
 .content02_02 h1{
     with: 100%;
@@ -1430,6 +1449,7 @@ li > a:only-child:after { content: ''; }
     font-size: 1rem;
     padding-left: 0;
 }
+
 
 }
 
